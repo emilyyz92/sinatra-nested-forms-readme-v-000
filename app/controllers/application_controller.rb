@@ -6,8 +6,8 @@ class ApplicationController < Sinatra::Base
  end
 
   get '/' do
-    "Hello World"
-    # erb :form
+
+    erb :form
   end
 
   post '/student' do
